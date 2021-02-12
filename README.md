@@ -1,6 +1,6 @@
 # Recipes for various DANC lab containers
 
-### DANC lab neurodocker recipe currently contains:
+### DANCmriproc MRI processing container recipe currently includes:
 - ANTs 2.3.1
 - Freesurfer-6.0.0-min
 - FSL 6.0.3
@@ -13,7 +13,7 @@
 - Docker
 
 ### Build
-`singularity build DANCneurodocker.simg DANCneurodocker`
+`singularity build DANCmriproc.simg DANCmriproc`
 
 ### Issues
 - build requires sudo access
